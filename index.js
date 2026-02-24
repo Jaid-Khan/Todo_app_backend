@@ -14,7 +14,9 @@ const mongoose = require("mongoose");
 const app = express();
 
 // Enable CORS for all incoming requests
-app.use(cors());
+app.use(cors({
+   origin: "https://todoapppbyjaidkhan.netlify.app/"
+}));
 
 // Middleware to parse incoming JSON request bodies
 app.use(express.json());
