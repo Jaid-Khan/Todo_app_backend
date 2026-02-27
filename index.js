@@ -15,7 +15,7 @@ const app = express();
 
 // Enable CORS for all incoming requests
 app.use(cors({
-   origin: "https://todoapppbyjaidkhan.netlify.app/"
+   origin: "https://todoapppbyjaidkhan.netlify.app"
 }));
 
 // Middleware to parse incoming JSON request bodies
