@@ -13,7 +13,6 @@ const mongoose = require("mongoose");
 // Create an Express application instance
 const app = express();
 
-// Enable CORS for all incoming requests
 app.use(cors({
    origin: "https://todoapppbyjaidkhan.netlify.app"
 }));
